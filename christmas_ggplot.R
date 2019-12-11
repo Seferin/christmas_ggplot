@@ -13,7 +13,7 @@ library(png)
   series <- c(1, 1, seq(5, 0, by=-0.5), 0, 0)
   
   data <- data.frame(
-    name=c(letters[1:15]),  #Use alphabet to prevent ggplot from re-ordering the greeting as alphabetically
+    name=c(letters[1:15]),  #Use alphabet to prevent ggplot from re-ordering the greeting alphabetically
     value1=series,
     value2=series * -1
   )
